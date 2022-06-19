@@ -1,8 +1,8 @@
 from random import randrange
-guess = randrange(0,21,2)
+guess = randrange(0,100,2)
 numGuesses = 0
 while(numGuesses != 5):
-    currentGuess = int(input("Guess the number between 1 and 20:"))
+    currentGuess = int(input("Guess the number between 1 and 100:"))
     if currentGuess == guess:
         print("You are correct")
         print("The answer was %s" % guess)
